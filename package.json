@@ -1,0 +1,36 @@
+{
+  "name": "redeembridge-smc",
+  "version": "1.0.0",
+  "description": "Redeem Bridge smart contract development",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptoleminar/RedeemBridge-SMC.git"
+  },
+  "author": "Cryptoleminar",
+  "homepage": "https://github.com/Cryptoleminar/RedeemBridge-SMC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.1.1",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.3.0",
+    "husky": "^4.2.5",
+    "mocha": "^10.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Cryptoleminar/RedeemBridge-SMC/issues"
+  },
+  "main": "hardhat.config.js",
+  "keywords": [
+    "Redeem",
+    "Bridge"
+  ],
+  "license": "ISC"
+}
